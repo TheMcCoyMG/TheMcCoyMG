@@ -1,15 +1,18 @@
 import Image from "next/image"
+import { BrandLoader } from "./brand-loader"
 import "./styles.css"
 
-const logo = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_6pofin6pofin6pof.jfif-DT90Xfrfodzif2AABZtAUk9In040lp.jpeg"
+const logo = "/official-logo.jpeg"
 const heroImage = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-tse7NTbDHakCFProB62o6zFOuhWc40.png"
 
 export default function Home() {
   return (
-    <main>
+    <>
+      <BrandLoader />
+      <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Rotimi Ogundele home">
-          <span className="brand-mark">R</span>
+          <span className="brand-mark"><Image src={logo} alt="" width={37} height={37} priority /></span>
           <span>ROTIMI OGUNDELE</span>
         </a>
         <nav aria-label="Primary navigation">
@@ -54,6 +57,7 @@ export default function Home() {
       </section>
 
       <footer id="contact"><span>ROTIMI OGUNDELE</span><a href="mailto:hello@rotimogundele.com">Start a conversation ↗</a></footer>
-    </main>
+      </main>
+    </>
   )
 }
