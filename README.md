@@ -1,12 +1,24 @@
-- 👋 Hi, I’m McCoy.
-- 👀 I’m interested in Creating contents surrounding Blockchain and Web3. I am not a coder🙂. I am just simply a social media manager and moderator.
-- 🌱 I’m currently learning web development, digital marketing, copywriting and some tech languages
-- 💞️ I’m looking to collaborate on community and project management 
-- 📫 You can reach me on X (Twitter @McCoy_MG) and you can chat me directly on Whatsapp+2348134997187
-- 😄 Pronouns: He/She
-- ⚡ Fun fact: I am physically challenged but, I'm intelligently capable.
+# Git Import Helper
 
-<!---
-TheMcCoyMG/TheMcCoyMG is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+i want to import from git
+
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/8e63db0f-92d0-4742-86b6-370f4469f55a).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
