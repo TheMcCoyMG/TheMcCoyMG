@@ -27,14 +27,14 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "A public record of service, conviction, and the work still ahead.",
+          "Hon. Jacob Olurotimi Ogundele, popularly known as “Solution”, is a technology professional, entrepreneur, community leader, and public servant from Oke-Odan, Yewa South, Ogun State.",
       },
       { property: "og:type", content: "profile" },
       { property: "og:url", content: "/" },
       { name: "twitter:title", content: "Rotimi Ogundele | A Better Future Starts With Us" },
       {
         name: "twitter:description",
-        content: "A public record of service, conviction, and the work still ahead.",
+        content: "Hon. Jacob Olurotimi Ogundele, popularly known as “Solution”, is a technology professional, entrepreneur, community leader, and public servant from Oke-Odan, Yewa South, Ogun State.",
       },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -104,7 +104,7 @@ function HomePage() {
               us.
             </h1>
             <p className="intro">
-              A public record of service, conviction, and the work still ahead.
+              Hon. Jacob Olurotimi Ogundele, popularly known as “Solution”, is a technology professional, entrepreneur, community leader, and public servant from Oke-Odan, Yewa South, Ogun State.
             </p>
             <a className="hero-link" href="#about">
               Explore the journey <span aria-hidden="true">↓</span>
@@ -136,9 +136,9 @@ function HomePage() {
             <span aria-hidden="true" /> THE WORK
           </p>
           <h2>
-            Leadership is not a title.
+            A life built on learning,
             <br />
-            <em>It is a promise kept.</em>
+            <em>work, and responsibility.</em>
           </h2>
         </section>
 
@@ -169,9 +169,9 @@ function HomePage() {
             <span aria-hidden="true" /> PRINCIPLES
           </p>
           <h2>
-            What I won't
+            Public service
             <br />
-            <em>compromise on.</em>
+            <em>should work for people.</em>
           </h2>
           <div className="principle-grid">
             {site.principles.map((principle, index) => (
