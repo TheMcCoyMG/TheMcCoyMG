@@ -1,11 +1,7 @@
-// Site content, carried over from the imported repository
-// (github.com/TheMcCoyMG/TheMcCoyMG). Anything shown in square brackets is
-// placeholder wording for the site owner to replace with the real thing.
-
 export const site = {
   name: "Rotimi Ogundele",
   email: "hello@rotimogundele.com",
-  tagline: "People first. Progress always.",
+  tagline: "Technology • Professionalism • Community • Public Service",
   images: {
     logo: "/official-logo.jpeg",
     hero: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-tse7NTbDHakCFProB62o6zFOuhWc40.png",
@@ -20,63 +16,48 @@ export const site = {
   stripItems: 8,
   journey: [
     {
-      slot: "[Year]",
-      title: "[First milestone]",
-      body: "[One or two sentences on what happened, who it involved, and what changed because of it.]",
+      slot: "1983 — 1995",
+      title: "Early education",
+      body: "St. James’ Anglican Primary School and Muslim Progressive High School, Oke-Odan.",
     },
     {
-      slot: "[Year]",
-      title: "[Second milestone]",
-      body: "[One or two sentences on what happened, who it involved, and what changed because of it.]",
+      slot: "1996 — 2007",
+      title: "Technology and higher learning",
+      body: "Yaba College of Technology, Adekunle Ajasin University, and an M.Sc. in Computer Science from the University of Ibadan.",
     },
     {
-      slot: "[Year]",
-      title: "[Third milestone]",
-      body: "[One or two sentences on what happened, who it involved, and what changed because of it.]",
-    },
-    {
-      slot: "[Year]",
-      title: "[Where things stand now]",
-      body: "[One or two sentences on the work currently in motion and who it serves.]",
+      slot: "Today",
+      title: "Professional and public service",
+      body: "Data Analyst, Programme Analyst, lecturer, technology entrepreneur, and community-minded political leader.",
     },
   ],
   principles: [
     {
       mark: "01",
-      title: "[Principle one]",
-      body: "[What this belief means in practice, and a line on how it has already been tested.]",
+      title: "Accountable leadership",
+      body: "Public service that answers to people, protects public resources, and delivers visible results.",
     },
     {
       mark: "02",
-      title: "[Principle two]",
-      body: "[What this belief means in practice, and a line on how it has already been tested.]",
+      title: "Dignity in every home",
+      body: "A community where education opens doors, work creates stability, and every family can plan ahead.",
     },
     {
       mark: "03",
-      title: "[Principle three]",
-      body: "[What this belief means in practice, and a line on how it has already been tested.]",
-    },
-    {
-      mark: "04",
-      title: "[Principle four]",
-      body: "[What this belief means in practice, and a line on how it has already been tested.]",
+      title: "Power to the people",
+      body: "Organized citizens shaping the decisions that affect their streets, schools, businesses, and future.",
     },
   ],
   updates: [
     {
-      date: "[Month, Year]",
-      title: "[Update headline]",
-      body: "[A short note on what is happening next and how people can take part.]",
+      date: "News Barrel · 04 August 2026",
+      title: "2027 Elections: Yewa South PDP holds unity meeting, unveils Ogundele’s ward coordinators",
+      body: "Unity, listening, and a serious conversation about the future.",
     },
     {
-      date: "[Month, Year]",
-      title: "[Update headline]",
-      body: "[A short note on what is happening next and how people can take part.]",
-    },
-    {
-      date: "[Month, Year]",
-      title: "[Update headline]",
-      body: "[A short note on what is happening next and how people can take part.]",
+      date: "Watch the conversation",
+      title: "What Solution said about the APC-led administration.",
+      body: "Watch on YouTube.",
     },
   ],
 };
