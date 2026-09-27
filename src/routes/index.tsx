@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { site } from "../site";
+import { SiteLogo } from "../components/site-logo";
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -53,10 +54,7 @@ function HomePage() {
     <>
       <header className="site-header">
         <a className="brand" href="#top" aria-label={`${site.name} home`}>
-          <span className="brand-mark" aria-hidden="true">
-            R
-          </span>
-          <span>{site.name.toUpperCase()}</span>
+          <SiteLogo className="brand-logo" />
         </a>
         <nav className="site-nav" aria-label="Primary navigation">
           {site.nav.map((item) => (
