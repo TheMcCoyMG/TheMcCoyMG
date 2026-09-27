@@ -177,6 +177,60 @@ html {
   background: var(--ink);
 }
 
+.brand-logo {
+  width: 8rem;
+  height: auto;
+  color: var(--ink);
+}
+
+.site-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  color: var(--ink);
+  animation: loader-exit 420ms ease 520ms forwards;
+  pointer-events: none;
+}
+
+.site-loader-logo {
+  width: min(13rem, 48vw);
+  animation: loader-mark 900ms ease both;
+}
+
+.site-loader-line {
+  position: absolute;
+  bottom: 18%;
+  width: 3rem;
+  height: 2px;
+  background: var(--red);
+  transform-origin: left;
+  animation: loader-line 800ms ease both;
+}
+
+@keyframes loader-mark {
+  from { opacity: 0; transform: translateY(10px) scale(.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes loader-line {
+  from { transform: scaleX(0); opacity: 0; }
+  to { transform: scaleX(1); opacity: 1; }
+}
+
+@keyframes loader-exit {
+  to { opacity: 0; visibility: hidden; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-loader,
+  .site-loader-logo,
+  .site-loader-line { animation: none; }
+  .site-loader { opacity: 0; visibility: hidden; }
+}
+
 body {
   margin: 0;
   background: var(--ink);
